@@ -1,15 +1,15 @@
 
 
-var no_Of_drums = document.querySelectorAll(".drum").length; 
+// var no_Of_drums = document.querySelectorAll(".drum").length; 
 
-for (var i = 0 ; i <= no_Of_drums; i++) {
+// for (var i = 0 ; i <= no_Of_drums; i++) {
 
-    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+//     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
 
-      var buttonInnerHTML = this.innerHTML;
-      makesound(buttonInnerHTML);});
+//       var buttonInnerHTML = this.innerHTML;
+//       makesound(buttonInnerHTML);});
      
- }
+//  }
 
 
  document.addEventListener("keydown", function(event){
