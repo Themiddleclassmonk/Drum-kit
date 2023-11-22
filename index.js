@@ -1,5 +1,4 @@
 
-
 var no_Of_drums = document.querySelectorAll(".drum").length; 
 
 for (var i = 0 ; i <= no_Of_drums; i++) {
